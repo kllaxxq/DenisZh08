@@ -1,0 +1,77 @@
+@font-face{
+  font-family:PT-Root-UI_Regular;
+  src: url(../font/PT_Root_UI/PT-Root-UI_Regular.ttf)
+}
+@font-face{
+  font-family:PT-Root-UI_VF;
+  src: url(../font/PT_Root_UI/PT-Root-UI_VF.ttf)
+}
+@font-face{
+  font-family:PT-Root-UI_Medium;
+  src: url(../font/PT_Root_UI/PT-Root-UI_Medium.ttf)
+}
+@font-face{
+  font-family:PT-Root-UI_Light;
+  src: url(../font/PT_Root_UI/PT-Root-UI_Light.ttf)
+}
+@font-face{
+  font-family:PT-Root-UI_Bold;
+  src: url(../font/PT_Root_UI/PT-Root-UI_Bold.ttf)
+}
+.block{
+    width: 400px;
+    height: 500px;
+    background-color: rgb(233, 233, 233);
+    border: 2px solid rgb(211, 210, 210);
+}
+.kartinka{
+    width: 250px;
+    height: 250px;
+    position: relative;
+    right:75px;
+    top: 20px;
+    z-index: 5;
+}
+.novinka{
+    padding: 15px;
+    background: blue;
+    color: white;
+    position: relative;
+    font-size: 30px;
+    bottom: 209px;
+    left: 259px;
+    z-index: 10;
+    
+}
+.maintext{
+    width: 100%;
+    height: 80px;
+    font-size: 24px;
+    text-align: center;
+    font-family: PT-Root-UI_Bold;
+}
+.chena{
+    width: 90px;  
+    height: 90px;  
+    border-radius: 50%;  
+    background: rgb(124, 60, 175);
+    float: right;
+    position: relative;
+    right: 25px;
+}
+.hh1{
+    font-size: 25px;
+    position: relative;
+    bottom: 78px;
+    left: 27px;
+    color: white;
+    font-family: PT-Root-UI_Medium;
+}
+.hh2{
+    font-size: 40px;
+    position: relative;
+    bottom: 30px;
+    left: 25px;
+    color: white;
+    font-family: PT-Root-UI_Regular;
+}
