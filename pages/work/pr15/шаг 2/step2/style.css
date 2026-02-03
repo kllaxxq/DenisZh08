@@ -7,3 +7,18 @@ p, h1{
 .content{
 	max-width:900px; margin:0 auto; padding:0 30px;
 }
+.bridge-night{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	max-width: 100%;
+}
+@media screen and (max-widht: 480px) {
+	.bridge-day{
+	float: left;
+	margin: auto;
+	max-width: 100%;
+	min-width: 100%;
+	}
+}
