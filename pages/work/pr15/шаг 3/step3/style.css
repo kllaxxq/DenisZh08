@@ -46,6 +46,10 @@ button:hover {
     cursor: pointer;
 }
 /*ниже нужно написать код для выравнивания элементов*/
-
+article {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
 
 /*------- услуги end ------*/
