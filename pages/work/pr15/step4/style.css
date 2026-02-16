@@ -2,17 +2,17 @@
     padding: 0;
     margin: 0;
 }
-h1, p{
-    margin-bottom: 20px;
+h1,p{
+    font-size: 20px;
 }
 main{
     max-width: 960px;
-    margin: 0 auto;
+    margin: 50px auto;
     display: flex;
     flex-wrap: wrap;
     gap: 3%;
 }
-.content{
+.Content{
     width: 60%;
     background: #f0f0f0;
     padding: 2%;
@@ -25,8 +25,9 @@ aside{
     padding: 5%;
     margin-bottom: 20px;
 }
-@media screen and (max-widht: 800px) {
-    .content{
+
+@media screen and (max-width:800px) {
+    .Content{
         width: 100%;
     }
     aside{
@@ -41,7 +42,7 @@ aside{
         padding: 2%;
     }
 }
-@media screen and (max-widht: 480px) {
+@media screen and (max-width:480px){
     .side-block{
         width: 96%;
         padding: 4%;
